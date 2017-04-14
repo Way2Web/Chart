@@ -1,6 +1,6 @@
 {
     "name": "way2web-charts",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "description": "Add highcharts to the page with ajax.",
     "files": [
         "js/charts.core.js"
@@ -8,7 +8,7 @@
     "main": "js/charts.core.js",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com:Way2WebPieter/Chart.git"
+        "url": "https://github.com/Way2WebPieter/Chart.git"
     },
     "keywords": [
         "highcharts",
