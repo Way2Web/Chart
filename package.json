@@ -21,6 +21,6 @@
     },
     "homepage": "https://github.com/Way2WebPieter/Chart#readme",
     "dependencies": {
-        "highcharts": "5.0.7",
+        "highcharts": "5.0.7"
     }
 }
