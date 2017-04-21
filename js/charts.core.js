@@ -23,7 +23,8 @@ var Chart = (function(element, config) {
         url: 'chart-url',
         xAxisTitle: 'chart-xaxis-title',
         yAxisTitle: 'chart-yaxis-title',
-        zAxisTitle: 'chart-zaxis-title'
+        zAxisTitle: 'chart-zaxis-title',
+        preset: 'chart-preset'
     };
 
     var functions = {
@@ -38,6 +39,7 @@ var Chart = (function(element, config) {
             }
 
             settings.id = element.attr('id');
+            settings.preset = element.data(attributes.preset);
             settings.url = element.data(attributes.url);
             settings.titles.xAxis = element.data(attributes.xAxisTitle);
             settings.titles.yAxis = element.data(attributes.yAxisTitle);
@@ -52,7 +54,7 @@ var Chart = (function(element, config) {
          * @param {object} series
          */
         addChart: function(series) {
-            settings.chart = $.extend({}, config['all'], config[settings.id] || {});
+            settings.chart = $.extend({}, config['all'], config[settings.preset] || {});
 
             settings.series = series;
 

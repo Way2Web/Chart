@@ -82,25 +82,4 @@
             }
         }]
     };
-
-    $('.js-chart-filter').on('click', function() {
-        var minYear = $(this).data('filter-min');
-        var axis = $(this).data('filter-axis');
-        var chart = $(this).data('filter-chart');
-
-        Way2web.Charts.items[chart].filter(axis + 'Axis', {
-            min: Date.UTC(minYear, 0, 0)
-        });
-    });
-
-    $('.js-chart-update').on('click', function() {
-        var inverted = $(this).data('inverted');
-        var chart = $(this).data('filter-chart');
-
-        Way2web.Charts.items[chart].update({
-            chart: {
-                inverted: inverted
-            }
-        });
-    });
 })(window.Way2web.Charts = window.Way2web.Charts || {});
