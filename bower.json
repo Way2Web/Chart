@@ -10,7 +10,7 @@
         "highcharts",
         "javascript"
     ],
-    "homepage": "https://github.com/Way2WebPieter/Chart",
+    "homepage": "https://github.com/Way2Web/Chart",
     "ignore": [
         "**/.*",
         "node_modules",
