@@ -3,7 +3,7 @@
     "description": "Add highcharts to the page with ajax.",
     "main": "js/charts.core.js",
     "authors": [
-        "Pieter Wigboldus"
+        "Pieter Wigboldus [Way2Web] <pieter@way2web.nl>"
     ],
     "license": "GPL-3.0",
     "keywords": [
