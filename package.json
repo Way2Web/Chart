@@ -14,7 +14,7 @@
         "highcharts",
         "javascript"
     ],
-    "author": "Pieter Wigboldus",
+    "author": "Pieter Wigboldus [Way2Web] <pieter@way2web.nl>",
     "license": "GPL-3.0",
     "bugs": {
         "url": "https://github.com/Way2WebPieter/Chart/issues"
